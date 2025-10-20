@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+        
 use Illuminate\Http\Request;
 
 class UIController extends Controller
@@ -26,8 +26,8 @@ class UIController extends Controller
         $theme = session('theme', 'light');
         $alertMessage = 'Halaman ini menggunakan Partial Views!';
         $team = [
-            ['name' => 'Bunga', 'role' => 'Pretty Girl'],
-            ['name' => 'Maisha', 'role' => 'Owner Lumo'],
+            ['name' => 'Kaisan', 'role' => 'Handsome Boy'],
+            ['name' => 'Jennie', 'role' => 'Pretty Girl'],
             ['name' => 'Deva', 'role' => 'Typo Girl'],
         ];
 
@@ -51,8 +51,8 @@ class UIController extends Controller
     {
         $theme = session('theme', 'light');
         $user = [
-            'name' => 'Bunga Alfa Zahrah',
-            'email' => 'bungaalfazahrah@gmail.com',
+            'name' => 'Kaisan Nurwaled',
+            'email' => 'kaisan1611@gmail.com',
             'join_date' => '2024-01-25', // <-- diganti dari join-date ke join_date
             'preferences' => ['Email Notification', 'Dark Mode', 'Newsletter'],
         ];

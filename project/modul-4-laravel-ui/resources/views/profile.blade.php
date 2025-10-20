@@ -19,7 +19,7 @@
                         </div>
                         <h4>{{ $user['name'] }}</h4>
                         <p class="text-muted">{{ $user['email'] }}</p>
-                        <p class="text-muted">Bergabung: {{ date('d M Y', strtotime($user['join-date'])) }}</p>
+                        <p class="text-muted">Bergabung: {{ date('d M Y', strtotime($user['join_date'])) }}</p>
                     </div>
                 </div>
             </div>

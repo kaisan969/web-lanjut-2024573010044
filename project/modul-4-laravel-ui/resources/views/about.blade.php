@@ -17,7 +17,7 @@
                 :name="$member['name'] "
                 :role="$member['role'] "
                 :theme="$theme"
-                :avatar=" ['👩‍💻','👩‍🌾','🤵‍♀️'][$loop->index]"
+                :avatar=" ['🤵','👩‍🌾','👩‍💻'][$loop->index]"
                 :description="'Bergabung sejak 2024 dan kontribusi dalam pengembangan'"
             />
             @endforeach
